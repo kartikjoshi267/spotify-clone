@@ -9,7 +9,7 @@ import List from '@mui/material/List';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import logo from './assets/logo.png'
+import logo from './assets/logo.png';
 import ListItemComp from './ListItemComp';
 import { Add, HomeRounded, LibraryBooks, Search, ThumbUpSharp } from '@mui/icons-material';
 import { Divider } from '@mui/material';

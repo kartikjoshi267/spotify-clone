@@ -1,10 +1,12 @@
 import './App.css'
-import ResponsiveDrawer from './ResponsiveDrawer';
+import ResponsiveDrawer from './Components/ResponsiveDrawer';
+import Song from './Pages/Song';
 
 function App() {
   return (
-    <div className="App">
+    <div style={{display: 'flex'}}>
       <ResponsiveDrawer />
+      <Song />
     </div>
   )
 }

@@ -3,7 +3,7 @@ import { ListItem, ListItemIcon, ListItemText, ListItemButton } from '@mui/mater
 
 function ListItemComp({ text, icon }) {
   return (
-    <div>
+    <>
       <ListItem className='list-item' key={text} style={{ padding: '0px 10px', userSelect: 'none' }}>
         <ListItemButton style={{ backgroundColor: "transparent" }} disableRipple>
           <ListItemIcon>
@@ -12,7 +12,7 @@ function ListItemComp({ text, icon }) {
           <ListItemText primary={text} style={{ userSelect: 'none', fontSize: '20px' }} />
         </ListItemButton>
       </ListItem>
-    </div>
+    </>
   )
 }
 export default ListItemComp

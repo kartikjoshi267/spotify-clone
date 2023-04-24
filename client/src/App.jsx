@@ -1,6 +1,6 @@
 import './App.css'
 import ResponsiveDrawer from './Components/ResponsiveDrawer';
-import Song from './Pages/Song';
+import Song from './Pages/Song/Song';
 import Library from './pages/Library'
 import React, { useState } from 'react'
 import Discover from './pages/Discover/Discover'
@@ -11,15 +11,17 @@ function App() {
   const [loginStatus, setLoginStatus] = useState(false);
   return (
     <>
-      <div style={{ display: 'flex' }}>
+      <div style={{ display: 'flex', width: '100vw' }}>
         <ResponsiveDrawer />
-        <Song />
+        <div>
+          <Library />
+        </div>
+        {/* <Song /> */}
       </div>
-      <div>
+      {/* <div>
         {loginStatus == true ? <ResponsiveDrawer /> : <Login />}
-        <Library />
-        {/* <Discover /> */}
-      </div>
+        <Discover />
+      </div> */}
     </>
   )
 }

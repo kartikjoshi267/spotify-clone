@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import './Song.css'
-import context from '../context/Context';
+import context from '../../context/Context';
 
 function Song() {
     const imgURL = "https://preview.redd.it/tjmm-new-song-poster-v0-e47dcw1wc8fa1.png?auto=webp&s=e498999d9d80a93971e05fd6c6428db4b5e6e364";
